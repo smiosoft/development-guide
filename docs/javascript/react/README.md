@@ -8,4 +8,4 @@
 
 ## Basic Rules
 
-### (JSR-1.1)
+### (JSR-1.1) Only include one React component per file
