@@ -9,17 +9,17 @@ _A mostly reasonable approach to documentation._
 
 ## Basic Rules
 
-### (DOC-BR1) Prefer to store and reference local assets
+### _DOC-BR1:_ Prefer to store and reference local assets
 
 When possible store static assets in the `.assets` folder; not only is it faster but there is no dependency on the external hosting.
 
-#### DO
+#### _DO_
 
 ```markdown
 ![Development Guide](./docs/.assets/project-title.png)
 ```
 
-#### DON'T
+#### _DON'T_
 
 ```markdown
 ![Development Guide](https://i.imgur.com/EpXBaDQ.jpg)
@@ -27,7 +27,7 @@ When possible store static assets in the `.assets` folder; not only is it faster
 
 ## Order
 
-### (DOC-OR1) Repository README
+### _DOC-OR1:_ Repository README
 
 1. Title
    - Prefer to use an asset exported from [assets/project-title](https://github.com/smiosoft/assets#project-title).
