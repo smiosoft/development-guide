@@ -1,6 +1,6 @@
 # JavaScript
 
-*A mostly reasonable approach to JavaScript.*
+_A mostly reasonable approach to JavaScript._
 
 Frameworks:
 

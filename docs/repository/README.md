@@ -1,14 +1,15 @@
 # Repository
 
-*A mostly reasonable approach to repositories.*
+_A mostly reasonable approach to repositories._
 
 ## Table of Contents
 
-1. [Structure](#structure)
+- [Structure](#structure)
+- [Basic Rules](#basic-rules)
 
 ## Structure
 
-```markdown
+```
 .
 |   .gitattributes
 |   .gitignore
@@ -18,8 +19,7 @@
 |
 +---build
 +---docs
-|   \---assets
-|           project-title.png
+|   \---.assets
 |
 +---lib
 +---samples
@@ -27,9 +27,40 @@
 \---tests
 ```
 
-- `build` - Any scripts related to building the project, this is **NOT** an output
-- `docs` - Any documentation files and assets
-- `lib` - Any dependencies that must be local, and cannot be instaleld from an online package manager
-- `samples` - Any projects used to provide an example or demonstration
+- `build` - Any scripts related to building the solution, this is **NOT** an output folder
+- `docs` - Any documentation files
+  - `.assets` - Any assets used in documentation
+- `lib` - Any dependencies that must be local, and cannot be installed from an online package manager
+- `samples` - Any projects used to provide an example, or for demonstration purposes
 - `src` - Any projects related to the source code
 - `tests` - Any projects related to testing
+
+## Basic Rules
+
+### REPO_BR1: _Name repositories using lower-case and kebab-case_
+
+An exception to this is a `GitHub User Pages` repository, which expects to be named `{username}.github.io`.
+
+#### DO
+
+```
+awesome-project
+```
+
+#### DON'T
+
+```
+Awesome-Project
+```
+
+```
+awesomeproject
+```
+
+```
+AwesomeProject
+```
+
+```
+Awesome.Project
+```

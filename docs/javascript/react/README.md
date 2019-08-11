@@ -1,6 +1,6 @@
 # React/JSX
 
-*A mostly reasonable approach to React and JSX.*
+_A mostly reasonable approach to React and JSX._
 
 ## Table of Contents
 
@@ -8,4 +8,4 @@
 
 ## Basic Rules
 
-### (JSR-1.1) Only include one React component per file
+### REACT_BR1: _Only include one React component per file_
