@@ -19,7 +19,6 @@ _A mostly reasonable approach to repositories._
 +---build
 +---docs
 |   \---.assets
-|           project-title.png
 |
 +---lib
 +---samples
