@@ -39,6 +39,8 @@ _A mostly reasonable approach to repositories._
 
 ### REPO-BR1: _Name repositories using lower-case and kebab-case_
 
+An exception to this is a `GitHub User Pages` repository, which expects to be named `{username}.github.io`.
+
 #### DO
 
 ```
@@ -52,11 +54,13 @@ Awesome-Project
 ```
 
 ```
+awesomeproject
+```
+
+```
 AwesomeProject
 ```
 
 ```
 Awesome.Project
 ```
-
-An exception to this is a `GitHub User Pages` repository, which expect `{username}.github.io`.
