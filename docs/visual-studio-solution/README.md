@@ -8,7 +8,7 @@ _A mostly reasonable approach to Visual Studio solutions._
 
 ## Basic Rules
 
-### VSS-BR1: _Name solutions using pascal-case_
+### VSS_BR1: _Name solutions using pascal-case_
 
 #### DO
 

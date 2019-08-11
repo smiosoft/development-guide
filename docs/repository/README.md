@@ -37,7 +37,7 @@ _A mostly reasonable approach to repositories._
 
 ## Basic Rules
 
-### REPO-BR1: _Name repositories using lower-case and kebab-case_
+### REPO_BR1: _Name repositories using lower-case and kebab-case_
 
 An exception to this is a `GitHub User Pages` repository, which expects to be named `{username}.github.io`.
 

@@ -8,4 +8,4 @@ _A mostly reasonable approach to React and JSX._
 
 ## Basic Rules
 
-### REACT-BR1: _Only include one React component per file_
+### REACT_BR1: _Only include one React component per file_
