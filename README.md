@@ -1,4 +1,4 @@
-![Development Guide](./docs/assets/project-title.png)
+![Development Guide](./docs/.assets/project-title.png)
 
 _A mostly reasonable set of guidelines and best practices for general development._
 
