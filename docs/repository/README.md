@@ -1,6 +1,6 @@
 # Repository
 
-*A mostly reasonable approach to repositories.*
+_A mostly reasonable approach to repositories._
 
 ## Table of Contents
 

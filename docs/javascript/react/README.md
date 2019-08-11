@@ -1,6 +1,6 @@
 # React/JSX
 
-*A mostly reasonable approach to React and JSX.*
+_A mostly reasonable approach to React and JSX._
 
 ## Table of Contents
 
