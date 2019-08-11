@@ -14,4 +14,6 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Project Guides
 
+### [Documentation](.docs/documentation)
+
 ### [Repository](./docs/repository)
