@@ -6,7 +6,7 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Language Guides
 
-### [C#](./docs/javascript)
+### [C#](./docs/csharp)
 
 ### [JavaScript](./docs/javascript)
 
