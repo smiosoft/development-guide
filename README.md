@@ -6,6 +6,8 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Language Guides
 
+### [C#](.docs/javascript)
+
 ### [JavaScript](./docs/javascript)
 
 - [React](./docs/javascript/react)
