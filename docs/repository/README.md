@@ -4,34 +4,8 @@ _A mostly reasonable approach to repositories._
 
 ## Table of Contents
 
-- [Basic Rules](#basic-rules)
 - [Structure](#structure)
-
-## Basic Rules
-
-### REPO-BR1: _Name repositories using lower-case and kebab-case_
-
-#### DO
-
-```
-awesome-project
-```
-
-#### DON'T
-
-```
-Awesome-Project
-```
-
-```
-AwesomeProject
-```
-
-```
-Awesome.Project
-```
-
-An exception to this is a `GitHub User Pages` repository, which expect `{username}.github.io`.
+- [Basic Rules](#basic-rules)
 
 ## Structure
 
@@ -60,3 +34,29 @@ An exception to this is a `GitHub User Pages` repository, which expect `{usernam
 - `samples` - Any projects used to provide an example, or for demonstration purposes
 - `src` - Any projects related to the source code
 - `tests` - Any projects related to testing
+
+## Basic Rules
+
+### REPO-BR1: _Name repositories using lower-case and kebab-case_
+
+#### DO
+
+```
+awesome-project
+```
+
+#### DON'T
+
+```
+Awesome-Project
+```
+
+```
+AwesomeProject
+```
+
+```
+Awesome.Project
+```
+
+An exception to this is a `GitHub User Pages` repository, which expect `{username}.github.io`.
