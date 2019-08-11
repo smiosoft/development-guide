@@ -4,11 +4,38 @@ _A mostly reasonable approach to repositories._
 
 ## Table of Contents
 
-1. [Structure](#structure)
+- [Basic Rules](#basic-rules)
+- [Structure](#structure)
+
+## Basic Rules
+
+### REPO-BR1: _Name repositories using lower-case and kebab-case_
+
+#### DO
+
+```
+awesome-project
+```
+
+#### DON'T
+
+```
+Awesome-Project
+```
+
+```
+AwesomeProject
+```
+
+```
+Awesome.Project
+```
+
+An exception to this is a `GitHub User Pages` repository, which expect `{username}.github.io`.
 
 ## Structure
 
-```markdown
+```
 .
 |   .gitattributes
 |   .gitignore
