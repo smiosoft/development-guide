@@ -17,3 +17,5 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 ### [Documentation](./docs/documentation)
 
 ### [Repository](./docs/repository)
+
+### [Visual Studio Solution](./docs/visual-studio-solution)

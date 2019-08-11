@@ -2,9 +2,6 @@
 
 _A mostly reasonable approach to repositories._
 
-- [Visual Studio Solution](./visual-studio-solution)
-- [Visual Studio Project](./visual-studio-project)
-
 ## Table of Contents
 
 - [Basic Rules](#basic-rules)
