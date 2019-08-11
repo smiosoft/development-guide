@@ -6,7 +6,6 @@ _A mostly reasonable approach to repositories._
 
 - [Structure](#structure)
 - [Basic Rules](#basic-rules)
-- [Version Control](#version-control)
 
 ## Structure
 
@@ -65,9 +64,3 @@ AwesomeProject
 ```
 Awesome.Project
 ```
-
-## Version Control
-
-### REPO_VC1: _Prefer Git_
-
-### REPO_VC2: _Protect `master` branch_
