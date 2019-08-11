@@ -13,13 +13,13 @@ _A mostly reasonable approach to documentation._
 
 When possible store static assets in the `.assets` folder; not only is it faster but there is no dependency on the external hosting.
 
-_DO_
+#### DO
 
 ```markdown
 ![Development Guide](./docs/.assets/project-title.png)
 ```
 
-_DON'T_
+#### DON'T
 
 ```markdown
 ![Development Guide](https://i.imgur.com/EpXBaDQ.jpg)
