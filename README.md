@@ -6,7 +6,7 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Language Guides
 
-### [C#](.docs/javascript)
+### [C#](./docs/javascript)
 
 ### [JavaScript](./docs/javascript)
 
@@ -14,6 +14,6 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Project Guides
 
-### [Documentation](.docs/documentation)
+### [Documentation](./docs/documentation)
 
 ### [Repository](./docs/repository)
