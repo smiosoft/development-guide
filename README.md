@@ -1,21 +1,23 @@
-![Development Guide](./docs/.assets/project-title.png)
+# Development Guide
 
 _A mostly reasonable set of guidelines and best practices for general development._
+
+![Development Guide](./docs/.assets/project-title.png)
 
 > The content presented here is intended for internal use, to provide guidance and maintain consistency across projects. These guides are built up from internal decisions and are expected to be expanded and updated when necessary.
 
 ## Language Guides
 
-### [C#](./docs/csharp)
+### [C#](./src/csharp)
 
-### [JavaScript](./docs/javascript)
+### [JavaScript](./src/javascript)
 
-- [React](./docs/javascript/react)
+- [React](./src/javascript/react)
 
 ## Project Guides
 
-### [Documentation](./docs/documentation)
+### [Documentation](./src/documentation)
 
-### [Repository](./docs/repository)
+### [Repository](./src/repository)
 
-### [Visual Studio Solution](./docs/visual-studio-solution)
+### [Visual Studio Solution](./src/visual-studio-solution)

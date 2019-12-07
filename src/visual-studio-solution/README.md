@@ -12,25 +12,24 @@ _A mostly reasonable approach to Visual Studio solutions._
 
 #### DO
 
-```
+```txt
 AwesomeProject
 ```
 
 #### DON'T
 
-```
+```txt
 Awesome-Project
 ```
 
-```
+```txt
 awesomeproject
 ```
 
-```
+```txt
 awesomeProject
 ```
 
-```
+```txt
 Awesome.Project
 ```
-
