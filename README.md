@@ -12,7 +12,7 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ### [JavaScript](./src/javascript)
 
-- [React](./docs/javascript/react)
+- [React](./src/javascript/react)
 
 ## Project Guides
 
