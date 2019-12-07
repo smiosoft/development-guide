@@ -1,4 +1,4 @@
-# C#
+# C\#
 
 _A mostly reasonable approach to C#._
 

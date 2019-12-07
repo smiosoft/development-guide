@@ -8,16 +8,16 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Language Guides
 
-### [C#](./docs/csharp)
+### [C#](./src/csharp)
 
-### [JavaScript](./docs/javascript)
+### [JavaScript](./src/javascript)
 
 - [React](./docs/javascript/react)
 
 ## Project Guides
 
-### [Documentation](./docs/documentation)
+### [Documentation](./src/documentation)
 
-### [Repository](./docs/repository)
+### [Repository](./src/repository)
 
-### [Visual Studio Solution](./docs/visual-studio-solution)
+### [Visual Studio Solution](./src/visual-studio-solution)
