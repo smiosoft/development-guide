@@ -29,20 +29,24 @@ When possible store static assets in the `.assets` folder; not only is it faster
 
 ### DOC_OR1: _Repository README_
 
-1. Title
-   - Prefer to use an asset exported from [assets/project-title](https://github.com/smiosoft/assets#project-title).
+1. Repository Title
 1. Badges
-1. Separator
 1. Short Description
-1. Getting Started
+1. Project Title Image
+   - Prefer to use an asset exported from [assets/project-title](https://github.com/smiosoft/assets#templates).
+1. Project Screenshot Image
+   - Prefer to use an asset exported from [assets/project-screenshot](https://github.com/smiosoft/assets#templates).
+1. Content (as relevant)
+   - Examples include: Getting Started, Installation, Usage, Contribution...etc
 
 ```markdown
-![{TITLE}](./docs/.assets/project-title.png)
-[![{BADGE_TITLE}]({BADGE_LINK})]({URL})
+# Repository Title
 
----
+[![{BADGE_TITLE}]({BADGE_LINK})]({URL})
 
 _{SHORT_DESCRIPTION}_
 
-## Getting Started
+![{TITLE}](./docs/.assets/project-title.png)
+
+![{SCREENSHOT}](./docs/.assets/project-screenshot.png)
 ```
