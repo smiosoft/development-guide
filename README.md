@@ -8,6 +8,8 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Language Guides
 
+### [C++](./src/cpp)
+
 ### [C#](./src/csharp)
 
 ### [JavaScript](./src/javascript)
