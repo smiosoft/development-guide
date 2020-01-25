@@ -4,7 +4,7 @@ _A mostly reasonable approach to Visual Studio solutions._
 
 ## Table of Contents
 
-- [Basic Rules](#basic-rules)
+1. [Basic Rules](#basic-rules)
 
 ## Basic Rules
 

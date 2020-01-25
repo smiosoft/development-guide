@@ -4,8 +4,8 @@ _A mostly reasonable approach to repositories._
 
 ## Table of Contents
 
-- [Structure](#structure)
-- [Basic Rules](#basic-rules)
+1. [Structure](#structure)
+1. [Basic Rules](#basic-rules)
 
 ## Structure
 
