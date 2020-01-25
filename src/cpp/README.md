@@ -12,3 +12,35 @@ _A mostly reasonable approach to C++._
 ## Formatting
 
 ### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
+
+### CPP_FORM2: _Prefer to indent related blocks based on the longest width_
+
+#### DO
+
+```cpp
+Foo device;
+device.id        = 1;
+device.instance  = GetInstance();
+device.style     = FOO | BAR | BAZ;
+```
+
+```cpp
+Device*           GetDevice();
+DeviceContext*    GetDeviceContext();
+RenderTargetView* GetRenderTarget();
+```
+
+#### DON'T
+
+```cpp
+Foo device;
+device.id = 1;
+device.instance = GetInstance();
+device.style = FOO | BAR | BAZ;
+```
+
+```cpp
+Device* GetDevice();
+DeviceContext* GetDeviceContext();
+RenderTargetView* GetRenderTarget();
+```
