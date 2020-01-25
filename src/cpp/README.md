@@ -4,6 +4,9 @@ _A mostly reasonable approach to C++._
 
 ## Table of Contents
 
-1. [Basic Rules](#basic-rules)
+- [Basic Rules](#basic-rules)
+- [Formatting](#formatting)
 
 ## Basic Rules
+
+## Formatting
