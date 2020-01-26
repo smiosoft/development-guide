@@ -9,6 +9,8 @@ _A mostly reasonable approach to C++._
 
 ## Basic Rules
 
+### CPP_BR1: _Prefer auto keyword_
+
 ## Formatting
 
 ### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
