@@ -65,3 +65,7 @@ RenderTargetView* GetRenderTarget();
 ```
 
 ## Naming
+
+### CPP_NAME1: _Avoid Hungarian Notation_
+
+The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
