@@ -11,6 +11,20 @@ _A mostly reasonable approach to C++._
 
 ### CPP_BR1: _Prefer auto keyword_
 
+Use `auto` to avoid redundant reputation of type names and simplify generic code.
+
+#### DO
+
+```cpp
+auto age = GetAge();
+```
+
+#### DON'T
+
+```cpp
+int age = GetAge();
+```
+
 ## Formatting
 
 ### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
