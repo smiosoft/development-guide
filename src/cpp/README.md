@@ -13,6 +13,8 @@ _A mostly reasonable approach to C++._
 
 ### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
 
+Spaces are preferred to allow consistent alignment columns cross-platform.
+
 ### CPP_FORM2: _Prefer to align related code chunks with the least amount of indents_
 
 #### DO
