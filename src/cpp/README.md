@@ -6,6 +6,7 @@ _A mostly reasonable approach to C++._
 
 1. [Basic Rules](#basic-rules)
 1. [Formatting](#formatting)
+1. [Naming](#naming)
 
 ## Basic Rules
 
@@ -62,3 +63,5 @@ Device* GetDevice();
 DeviceContext* GetDeviceContext();
 RenderTargetView* GetRenderTarget();
 ```
+
+## Naming
