@@ -73,19 +73,11 @@ The compiler and IDE can provide type information, prefixing this information is
 #### DO
 
 ```cpp
-auto username = "batman";
+std::string username = "batman";
 ```
 
 #### DON'T
 
 ```cpp
-auto strUsername = "batman";
-```
-
-```cpp
-std::string PrintUsernameString();
-```
-
-```cpp
-std::string m_username;
+std::string strUsername = "batman";
 ```
