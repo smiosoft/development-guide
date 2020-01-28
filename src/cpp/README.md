@@ -39,14 +39,8 @@ Spaces are preferred to allow consistent alignment columns cross-platform.
 ```cpp
 Foo device;
 device.id        = 1;
-device.instance  = GetInstance();
+device.instance  = CreateInstance();
 device.style     = FOO | BAR | BAZ;
-```
-
-```cpp
-Device*           GetDevice();
-DeviceContext*    GetDeviceContext();
-RenderTargetView* GetRenderTarget();
 ```
 
 #### DON'T
@@ -54,14 +48,8 @@ RenderTargetView* GetRenderTarget();
 ```cpp
 Foo device;
 device.id = 1;
-device.instance = GetInstance();
+device.instance = CreateInstance();
 device.style = FOO | BAR | BAZ;
-```
-
-```cpp
-Device* GetDevice();
-DeviceContext* GetDeviceContext();
-RenderTargetView* GetRenderTarget();
 ```
 
 ## Naming
