@@ -12,13 +12,13 @@ _A mostly reasonable approach to C++._
 
 Use `auto` to avoid redundant reputation of type names and simplify generic code.
 
-**DO**:
+DO:
 
 ```cpp
 auto age = GetAge();
 ```
 
-**DON'T**:
+DON'T:
 
 ```cpp
 int age = GetAge();
@@ -32,7 +32,7 @@ Spaces are preferred to allow consistent alignment columns cross-platform.
 
 ### CPP_FORM2: _Prefer to align related code chunks with the least amount of indents_
 
-**DO**:
+DO:
 
 ```cpp
 Foo device;
@@ -41,7 +41,7 @@ device.instance  = CreateInstance();
 device.style     = FOO | BAR | BAZ;
 ```
 
-**DON'T**:
+DON'T:
 
 ```cpp
 Foo device;
@@ -115,13 +115,13 @@ void Foo::Bar()
 
 The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
 
-**DO**:
+DO:
 
 ```cpp
 std::string username = "batman";
 ```
 
-**DON'T**:
+DON'T:
 
 ```cpp
 std::string strUsername = "batman";
