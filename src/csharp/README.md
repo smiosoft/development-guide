@@ -2,4 +2,22 @@
 
 _A mostly reasonable approach to C#._
 
-## Table of Contents
+1. [Basic Rules](#basic-rules)
+
+## Basic Rules
+
+### CS_BR1: _Prefer `var` keyword_
+
+Use `var` to avoid redundant reputation of type names and simplify generic code.
+
+DO:
+
+```csharp
+var age = GetAge();
+```
+
+DON'T:
+
+```csharp
+int age = GetAge();
+```
