@@ -104,7 +104,7 @@ private:
 void Foo::Bar(int my_parameter) {...}
 ```
 
-#### CPP_NAME1.7: _Variable - lower snake case_
+#### CPP_NAME1.7: _Variable - Lower snake case_
 
 ```cpp
 void Foo::Bar()
