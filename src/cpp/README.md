@@ -71,8 +71,9 @@ class MyClass {...}
 #### CPP_NAME1.3: _Method - Pascal case_
 
 ```cpp
-struct Foo
+class Foo
 {
+public:
   void MyMethod();
 }
 ```
@@ -100,10 +101,7 @@ private:
 #### CPP_NAME1.6: _Parameter - Lower snake case_
 
 ```cpp
-struct Foo
-{
-  void Bar(int my_parameter)
-}
+void Foo::Bar(int my_parameter) {...}
 ```
 
 #### CPP_NAME1.7: _Variable - lower snake case_
