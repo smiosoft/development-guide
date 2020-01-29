@@ -76,7 +76,7 @@ public:
 }
 ```
 
-#### CPP_NAME1.4: _Property(Public) - Pascal case_
+#### CPP_NAME1.4: _Property - Pascal case_
 
 ```cpp
 class Foo
@@ -86,13 +86,13 @@ public:
 }
 ```
 
-#### CPP_NAME1.5: _Property(Private) - Lower snake case_
+#### CPP_NAME1.5: _Field - Lower snake case with trailing underscore_
 
 ```cpp
 class Foo
 {
 private:
-  int _my_private_property;
+  int my_private_field_;
 }
 ```
 
