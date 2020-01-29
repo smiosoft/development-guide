@@ -2,12 +2,10 @@
 
 _A mostly reasonable approach to repositories._
 
-## Table of Contents
-
-1. [Structure](#structure)
 1. [Basic Rules](#basic-rules)
+1. [Naming](#naming)
 
-## Structure
+### REPO_BR1: _Structure_
 
 ```txt
 .
@@ -29,25 +27,25 @@ _A mostly reasonable approach to repositories._
 
 - `build` - Any scripts related to building the solution, this is **NOT** an output folder
 - `docs` - Any documentation related to the repository
-  - `.assets` - Any assets used in repository documentation
+  - `.assets` - Any repository scoped assets
 - `lib` - Any dependencies that must be local, and cannot be installed from a hosted package manager
 - `samples` - Any projects/files used to provide an example, or for demonstration purposes
 - `src` - Any projects/files that make up the source code for the solution
 - `tests` - Any projects/files related to testing the source code
 
-## Basic Rules
+## Naming
 
-### REPO_BR1: _Name repositories using lower-case and kebab-case_
+### REPO_NAME1: _Name repositories using lower kebab case_
 
 An exception to this is a `GitHub User Pages` repository, which expects to be named `{username}.github.io`.
 
-#### DO
+DO:
 
 ```txt
 awesome-project
 ```
 
-#### DON'T
+DON'T:
 
 ```txt
 Awesome-Project
