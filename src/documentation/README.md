@@ -2,9 +2,6 @@
 
 _A mostly reasonable approach to documentation._
 
-## Table of Contents
-
-1. [Table of Contents](#table-of-contents)
 1. [Basic Rules](#basic-rules)
 1. [Formatting](#formatting)
 
