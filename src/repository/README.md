@@ -5,6 +5,8 @@ _A mostly reasonable approach to repositories._
 1. [Basic Rules](#basic-rules)
 1. [Naming](#naming)
 
+## Basic Rules
+
 ### REPO_BR1: _Structure_
 
 ```txt
