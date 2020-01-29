@@ -2,8 +2,18 @@
 
 _A mostly reasonable approach to JavaScript._
 
-Frameworks:
+1. [Frameworks](#frameworks)
+1. [Basic Rules](#basic-rules)
+1. [Formatting](#formatting)
+
+## Frameworks
 
 - [React](./react)
 
-## Table of Contents
+## Basic Rules
+
+### JS_BR1: _Prefer use of semicolons_
+
+## Formatting
+
+### JS_FORM1: _Prefer tabs and indent 4 spaces at a time_
