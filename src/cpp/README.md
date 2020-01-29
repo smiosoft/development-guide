@@ -10,7 +10,7 @@ _A mostly reasonable approach to C++._
 
 ## Basic Rules
 
-### CPP_BR1: _Prefer auto keyword_
+### CPP_BR1: _Prefer `auto` keyword_
 
 Use `auto` to avoid redundant reputation of type names and simplify generic code.
 
