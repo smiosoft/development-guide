@@ -2,10 +2,10 @@
 
 _A mostly reasonable approach to React and JSX._
 
-## Table of Contents
-
 1. [Basic Rules](#basic-rules)
 
 ## Basic Rules
 
-### REACT_BR1: _Only include one React component per file_
+### REACT_BR1: _Prefer `.jsx` extension for components_
+
+### REACT_BR2: _Prefer only a single component per file_

@@ -2,21 +2,24 @@
 
 _A mostly reasonable approach to Visual Studio solutions._
 
-## Table of Contents
-
-- [Basic Rules](#basic-rules)
+1. [Basic Rules](#basic-rules)
+1. [Naming](#naming)
 
 ## Basic Rules
 
-### VSS_BR1: _Name solutions using pascal-case_
+### VSS_BR1: _Prefer only a single solution per repository_
 
-#### DO
+## Naming
+
+### VSS_NAME1: _Name solutions using pascal case_
+
+DO:
 
 ```txt
 AwesomeProject
 ```
 
-#### DON'T
+DON'T:
 
 ```txt
 Awesome-Project
