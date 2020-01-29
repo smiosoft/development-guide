@@ -28,7 +28,7 @@ int age = GetAge();
 
 ### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
 
-Spaces are preferred to allow consistent alignment columns cross-platform.
+Spaces are preferred to allow consistent alignment across different environments.
 
 ### CPP_FORM2: _Prefer to align related code chunks with the least amount of indents_
 
