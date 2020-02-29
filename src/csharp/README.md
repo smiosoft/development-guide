@@ -24,7 +24,13 @@ DON'T:
 int age = GetAge();
 ```
 
-### CS_BR2: _Avoid unused using statements_
+### CS_BR2: _Avoid comments_
+
+Use comments sparingly and only when there is unusual behaviour that needs explanation; focus on the why and what of a code block and not the how.
+
+Avoid line-by-line commentary; code should be self-documenting and easy for other developers to understand. Comments simply get in the way of reading code, add an unnecessary overhead during refactoring, and very easily fall out-of-date.
+
+### CS_BR3: _Avoid unused using statements_
 
 Remove any unused using statements from the top of each file.
 
