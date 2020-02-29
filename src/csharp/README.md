@@ -87,3 +87,19 @@ public void Foo()
   var myVariable = 413;
 }
 ```
+
+#### CS_NAME2: _Avoid Hungarian Notation_
+
+The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
+
+DO:
+
+```csharp
+var username = "batman";
+```
+
+DON'T:
+
+```csharp
+var strUsername = "batman";
+```
