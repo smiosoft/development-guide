@@ -88,22 +88,11 @@ For simplicity and code navigation only define one class per file.
 
 ### CS_FORM4: _Prefer to sort using statements alphabetically_
 
-DO:
-
 ```csharp
 using Foo;
 using Foo.Bar;
 using System;
 using System.Threading.Tasks;
-```
-
-DON'T:
-
-```csharp
-using System.Threading.Tasks;
-using Foo.Bar;
-using System;
-using Foo;
 ```
 
 ## Naming
