@@ -4,6 +4,7 @@ _A mostly reasonable approach to C#._
 
 1. [Basic Rules](#basic-rules)
 1. [Formatting](#formatting)
+1. [Naming](#naming)
 
 ## Basic Rules
 
@@ -28,3 +29,5 @@ int age = GetAge();
 ### CS_FORM1: _Prefer tabs for indentation_
 
 Tabs are preferred to allow developers to set their own indentation size.
+
+## Naming
