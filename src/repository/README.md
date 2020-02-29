@@ -39,6 +39,12 @@ _A mostly reasonable approach to repositories._
 
 Version control provides the ability to review past changes, there is no need to pollute the code base and its history.
 
+### REPO_BR3: _Avoid committing TODO comments_
+
+These comments can easily become out-of-date; they are not an effective way of tracking and storing related discussions.
+
+Use appropriate project management tools and services, there is no need to pollute the code base and its history.
+
 ## Naming
 
 ### REPO_NAME1: _Name repositories using lower kebab case_
