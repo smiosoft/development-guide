@@ -36,15 +36,57 @@ Remove any unused using statements from the top of each file.
 
 ## Formatting
 
-### CS_FORM1: _Prefer tabs for indentation_
+### CS_FORM1: _Structure_
+
+```csharp
+using App.Logging;
+using System;
+
+namespace App
+{
+    internal class Worker
+    {
+        private readonly ILogger _logger;
+        private int _counter;
+
+        public bool IsWoking => true;
+
+        public Worker(ILogger logger)
+        {
+            _logger = logger;
+            _counter = 0;
+        }
+
+        public void DoSomething()
+        {
+            Console.WriteLine("I'm working...");
+            _counter++;
+            LogAction();
+        }
+
+        private void LogAction()
+        {
+            _logger.Log($"Counter is set to {_counter}.");
+        }
+    }
+}
+```
+
+1. Private fields
+1. Public properties
+1. Constructors
+1. Public methods
+1. Private methods
+
+### CS_FORM2: _Prefer tabs for indentation_
 
 Tabs are preferred to allow developers to set their own indentation size.
 
-### CS_FORM2: _Prefer one class per file_
+### CS_FORM3: _Prefer one class per file_
 
 For simplicity and code navigation only define one class per file.
 
-### CS_FORM3: _Prefer to sort using statements alphabetically_
+### CS_FORM4: _Prefer to sort using statements alphabetically_
 
 DO:
 
