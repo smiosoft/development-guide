@@ -107,3 +107,7 @@ DON'T:
 ```csharp
 var strUsername = "batman";
 ```
+
+### CS_NAME3: _Prefer class name and file name to match_
+
+For simplicity and code navigation keep the class name and the file name the same.
