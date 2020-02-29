@@ -24,6 +24,10 @@ DON'T:
 int age = GetAge();
 ```
 
+### CS_BR2: _Avoid unused using statements_
+
+Remove any unused using statements from the top of each file.
+
 ## Formatting
 
 ### CS_FORM1: _Prefer tabs for indentation_
