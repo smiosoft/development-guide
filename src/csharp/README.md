@@ -30,6 +30,10 @@ int age = GetAge();
 
 Tabs are preferred to allow developers to set their own indentation size.
 
+### CS_FORM2: _Prefer one class per file_
+
+For simplicity and code navigation only define one class per file.
+
 ## Naming
 
 ### CS_NAME1: _Casing_
