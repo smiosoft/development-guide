@@ -31,3 +31,59 @@ int age = GetAge();
 Tabs are preferred to allow developers to set their own indentation size.
 
 ## Naming
+
+### CS_NAME1: _Casing_
+
+#### CS_NAME1.1: _File - Pascal case_
+
+```txt
+MyFile.cs
+```
+
+#### CS_NAME1.2: _Class - Pascal case_
+
+```csharp
+public class MyClass {...}
+```
+
+#### CS_NAME1.3: _Method - Pascal case_
+
+```csharp
+public class Foo
+{
+  public void MyMethod() {...}
+}
+```
+
+#### CS_NAME1.4: _Property - Pascal case_
+
+```csharp
+public class Foo
+{
+  public int MyProperty { get; set; }
+}
+```
+
+#### CS_NAME1.5: _Field - Lower camel case with leading underscore_
+
+```csharp
+public class Foo
+{
+  private int _myField;
+}
+```
+
+#### CS_NAME1.6: _Parameter - Lower camel case_
+
+```csharp
+public void Foo(int myParameter) {...}
+```
+
+#### CS_NAME1.7: _Variable - Lower camel case_
+
+```csharp
+public void Foo()
+{
+  var myVariable = 413;
+}
+```
