@@ -16,4 +16,6 @@ _A mostly reasonable approach to JavaScript._
 
 ## Formatting
 
-### JS_FORM1: _Prefer tabs and indent 4 spaces at a time_
+### JS_FORM1: _Prefer tabs for indentation_
+
+Tabs are preferred to allow developers to set their own indentation size.
