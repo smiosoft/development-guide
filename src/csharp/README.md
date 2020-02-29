@@ -169,6 +169,6 @@ DON'T:
 var strUsername = "batman";
 ```
 
-### CS_NAME3: _Prefer class name and file name to match_
+### CS_NAME3: _Prefer to match class name and file name_
 
 For simplicity and code navigation keep the class name and the file name the same.
