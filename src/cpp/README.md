@@ -8,7 +8,7 @@ _A mostly reasonable approach to C++._
 
 ## Basic Rules
 
-### CPP_BR1: _Prefer `auto` keyword_
+### _Prefer `auto` keyword_
 
 Use `auto` to avoid redundant reputation of type names and simplify generic code.
 
@@ -26,11 +26,11 @@ int age = GetAge();
 
 ## Formatting
 
-### CPP_FORM1: _Prefer spaces and indent 2 spaces at a time_
+### _Prefer spaces and indent 2 spaces at a time_
 
 Spaces are preferred to allow consistent alignment across different environments.
 
-### CPP_FORM2: _Prefer to align related code chunks with the least amount of indents_
+### _Prefer to align related code chunks with the least amount of indents_
 
 DO:
 
@@ -52,21 +52,21 @@ device.style = FOO | BAR | BAZ;
 
 ## Naming
 
-### CPP_NAME1: _Casing_
+### _Casing_
 
-#### CPP_NAME1.1: _File - Pascal case_
+#### _File - Pascal case_
 
 ```txt
 MyFile.cpp
 ```
 
-#### CPP_NAME1.2: _Class - Pascal case_
+#### _Class - Pascal case_
 
 ```cpp
 class MyClass {...}
 ```
 
-#### CPP_NAME1.3: _Method - Pascal case_
+#### _Method - Pascal case_
 
 ```cpp
 class Foo
@@ -76,7 +76,7 @@ public:
 }
 ```
 
-#### CPP_NAME1.4: _Property - Pascal case_
+#### _Property - Pascal case_
 
 ```cpp
 class Foo
@@ -86,7 +86,7 @@ public:
 }
 ```
 
-#### CPP_NAME1.5: _Field - Lower snake case with trailing underscore_
+#### _Field - Lower snake case with trailing underscore_
 
 ```cpp
 class Foo
@@ -96,13 +96,13 @@ private:
 }
 ```
 
-#### CPP_NAME1.6: _Parameter - Lower snake case_
+#### _Parameter - Lower snake case_
 
 ```cpp
 void Foo::Bar(int my_parameter) {...}
 ```
 
-#### CPP_NAME1.7: _Variable - Lower snake case_
+#### _Variable - Lower snake case_
 
 ```cpp
 void Foo::Bar()
@@ -111,7 +111,7 @@ void Foo::Bar()
 }
 ```
 
-### CPP_NAME2: _Avoid Hungarian Notation_
+### _Avoid Hungarian Notation_
 
 The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
 

@@ -7,11 +7,11 @@ _A mostly reasonable approach to Visual Studio solutions._
 
 ## Basic Rules
 
-### VSS_BR1: _Prefer only a single solution per repository_
+### _Prefer only a single solution per repository_
 
 ## Naming
 
-### VSS_NAME1: _Name solutions using pascal case_
+### _Name solutions using pascal case_
 
 DO:
 
