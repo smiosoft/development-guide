@@ -7,7 +7,7 @@ _A mostly reasonable approach to repositories._
 
 ## Basic Rules
 
-### REPO_BR1: _Structure_
+### _Structure_
 
 ```txt
 .
@@ -35,11 +35,11 @@ _A mostly reasonable approach to repositories._
 - `src` - Any projects/files that make up the source code for the solution
 - `tests` - Any projects/files related to testing the source code
 
-### REPO_BR2: _Avoid committing commented out code_
+### _Avoid committing commented out code_
 
 Version control provides the ability to review past changes, there is no need to pollute the code base and its history.
 
-### REPO_BR3: _Avoid committing TODO comments_
+### _Avoid committing TODO comments_
 
 These comments can easily become out-of-date; they are not an effective way of tracking and storing related discussions.
 
@@ -47,7 +47,7 @@ Use appropriate project management tools and services, there is no need to pollu
 
 ## Naming
 
-### REPO_NAME1: _Name repositories using lower kebab case_
+### _Name repositories using lower kebab case_
 
 An exception to this is a `GitHub User Pages` repository, which expects to be named `{username}.github.io`.
 

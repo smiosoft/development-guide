@@ -7,7 +7,7 @@ _A mostly reasonable approach to documentation._
 
 ## Basic Rules
 
-### DOC_BR1: _Prefer to store and reference local assets_
+### _Prefer to store and reference local assets_
 
 When possible store static assets in the `.assets` folder; not only is it faster but there is no dependency on the external hosting.
 
@@ -25,7 +25,7 @@ DON'T:
 
 ## Formatting
 
-### DOC_FORM1: _Repository README_
+### _Repository README_
 
 ```markdown
 # {Repository Title}

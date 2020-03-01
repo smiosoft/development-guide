@@ -12,10 +12,10 @@ _A mostly reasonable approach to JavaScript._
 
 ## Basic Rules
 
-### JS_BR1: _Prefer use of semicolons_
+### _Prefer use of semicolons_
 
 ## Formatting
 
-### JS_FORM1: _Prefer tabs for indentation_
+### _Prefer tabs for indentation_
 
 Tabs are preferred to allow developers to set their own indentation size.
