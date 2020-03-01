@@ -35,6 +35,10 @@ _A mostly reasonable approach to repositories._
 - `src` - Any projects/files that make up the source code for the solution
 - `tests` - Any projects/files related to testing the source code
 
+### _Protect `master` branch_
+
+Ensure that commits are not made directly to the `master` branch, and undergo a code review process.
+
 ### _Avoid committing commented out code_
 
 Version control provides the ability to review past changes, there is no need to pollute the code base and its history.
