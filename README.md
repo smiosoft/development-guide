@@ -25,5 +25,6 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 ### [Style Guide](./src/style-guide)
 
 - [Components](./src/style-guide/components)
+- [Typography](./src/style-guide/typography)
 
 ### [Visual Studio Solution](./src/visual-studio-solution)
