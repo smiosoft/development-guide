@@ -5,6 +5,7 @@ The spash screen component is used when an application is launching.
 ## Examine
 
 ![examine-basic-box](./.assets/examine-basic-box.png)
+_Standard view - The user can expect to see this upon launching the application._
 
 1. **Content**
    - Aligned in the middle of the viewport
