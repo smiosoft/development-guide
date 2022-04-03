@@ -3,3 +3,5 @@
 _A mostly reasonable approach to styling._
 
 ### [Components](./components)
+
+### [Typography](./typography)
