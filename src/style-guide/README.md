@@ -2,4 +2,4 @@
 
 _A mostly reasonable approach to styling._
 
-## Components
+## [Components](./components)
