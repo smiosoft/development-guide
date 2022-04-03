@@ -22,4 +22,8 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ### [Repository](./src/repository)
 
+### [Style Guide](./src/style-guide)
+
+- [Components](./src/style-guide/components)
+
 ### [Visual Studio Solution](./src/visual-studio-solution)
