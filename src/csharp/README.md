@@ -3,8 +3,8 @@
 _A mostly reasonable approach to C#._
 
 1. [Basic Rules](#basic-rules)
-1. [Formatting](#formatting)
-1. [Naming](#naming)
+2. [Formatting](#formatting)
+3. [Naming](#naming)
 
 ## Basic Rules
 

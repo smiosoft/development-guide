@@ -2,8 +2,8 @@
 
 _A mostly reasonable approach to typography usages and styling._
 
-1. [Typeface](#typeface)
-1. [Styles](#styles)
+1. [Typface](#typface)
+2. [Styles](#styles)
 
 ## Typface
 
