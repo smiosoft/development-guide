@@ -8,6 +8,7 @@ _A mostly reasonable approach to styling._
 ## Styles
 
 - [Colours](./colours)
+- [Elevation](./elevation)
 - [Typography](./typography)
 
 ## Components
