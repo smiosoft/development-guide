@@ -6,4 +6,4 @@ _A mostly reasonable approach to colour usages._
 
 ## Tokens
 
-![smiosoft-colours](./.assets/smiosoft-colours.png)
+![tokens](./.assets/tokens.png)
