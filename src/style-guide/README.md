@@ -2,10 +2,14 @@
 
 _A mostly reasonable approach to styling._
 
-### [Colours](./colours)
+1. [Styles](#styles)
+2. [Components](#components)
 
-### [Components](./components)
+## Styles
+
+- [Colours](./colours)
+- [Typography](./typography)
+
+## Components
 
 - [Splash screen](./components/splash-screen)
-
-### [Typography](./typography)
