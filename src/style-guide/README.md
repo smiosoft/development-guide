@@ -13,4 +13,4 @@ _A mostly reasonable approach to styling._
 
 ## Components
 
-- [Splash screen](./components/splash-screen)
+
