@@ -17,3 +17,5 @@ _A mostly reasonable approach to JavaScript._
 ## Formatting
 
 ### _Prefer spaces for indentation_
+
+### _Prefer an indent size of 2_
