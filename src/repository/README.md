@@ -3,7 +3,7 @@
 _A mostly reasonable approach to repositories._
 
 1. [Basic Rules](#basic-rules)
-1. [Naming](#naming)
+2. [Naming](#naming)
 
 ## Basic Rules
 

@@ -4,7 +4,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Create a Pull Request
 
-We use [Github Flow](https://guides.github.com/introduction/flow/index.html), so all code changes will happen through pull requests; they are the best way to propose changes to the codebase.
+We use a basic forking workflow, and all code changes will happen through pull requests; they are the best way to propose changes to the codebase.
 
 1. Fork the repo and create your branch from `master`.
 2. Update the documentation.

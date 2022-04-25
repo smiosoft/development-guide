@@ -3,7 +3,7 @@
 _A mostly reasonable approach to documentation._
 
 1. [Basic Rules](#basic-rules)
-1. [Formatting](#formatting)
+2. [Formatting](#formatting)
 
 ## Basic Rules
 

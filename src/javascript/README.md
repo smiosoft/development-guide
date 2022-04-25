@@ -3,8 +3,8 @@
 _A mostly reasonable approach to JavaScript._
 
 1. [Frameworks](#frameworks)
-1. [Basic Rules](#basic-rules)
-1. [Formatting](#formatting)
+2. [Basic Rules](#basic-rules)
+3. [Formatting](#formatting)
 
 ## Frameworks
 
