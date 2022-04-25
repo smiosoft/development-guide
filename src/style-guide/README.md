@@ -14,3 +14,4 @@ _A mostly reasonable approach to styling._
 ## Components
 
 - [Buttons](./buttons)
+- [Cards](./cards)
