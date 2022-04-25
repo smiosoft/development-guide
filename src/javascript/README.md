@@ -16,6 +16,4 @@ _A mostly reasonable approach to JavaScript._
 
 ## Formatting
 
-### _Prefer tabs for indentation_
-
-Tabs are preferred to allow developers to set their own indentation size.
+### _Prefer spaces for indentation_
