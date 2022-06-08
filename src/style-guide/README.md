@@ -13,5 +13,6 @@ _A mostly reasonable approach to styling._
 
 ## Components
 
+- [Application Header](./application-header)
 - [Buttons](./buttons)
 - [Cards](./cards)
