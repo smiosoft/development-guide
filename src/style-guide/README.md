@@ -14,5 +14,6 @@ _A mostly reasonable approach to styling._
 ## Components
 
 - [Application Header](./application-header)
+- [Application Navbar](./application-navbar)
 - [Buttons](./buttons)
 - [Cards](./cards)
