@@ -2,8 +2,8 @@
 
 _A mostly reasonable approach to elevation usages._
 
-1. [Layers](#layers)
+1. [Levels](#levels)
 
-## Layers
+## Levels
 
-![layers](./.assets/layers.png)
+![levels](./.assets/levels.png)
