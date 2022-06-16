@@ -1,4 +1,9 @@
 {
-    "markdown.extension.toc.orderedList": true,
-    "markdown.extension.toc.levels": "2..2"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "markdown.extension.toc.orderedList": true,
+  "markdown.extension.toc.levels": "2..2",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
 }
