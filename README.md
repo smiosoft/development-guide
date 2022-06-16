@@ -20,6 +20,8 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ### [Cloud](./src/cloud)
 
+- [Azure](./src/cloud/azure)
+
 ### [Documentation](./src/documentation)
 
 ### [Repository](./src/repository)
