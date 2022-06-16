@@ -18,6 +18,8 @@ _A mostly reasonable set of guidelines and best practices for general developmen
 
 ## Project Guides
 
+### [Cloud](./src/cloud)
+
 ### [Documentation](./src/documentation)
 
 ### [Repository](./src/repository)
