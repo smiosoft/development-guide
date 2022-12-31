@@ -106,6 +106,9 @@ namespace Helpers
 
     internal class ResultError
     { }
+
+    internal class Retry
+    { }
 }
 ```
 
@@ -207,6 +210,15 @@ public void Foo()
 }
 ```
 
+#### _Constants - Screaming snake case_
+
+```csharp
+public class Foo
+{
+  private const string MY_CONSTANT = "*screams*";
+}
+```
+
 ### _Avoid Hungarian Notation_
 
 The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
@@ -226,3 +238,7 @@ var strUsername = "batman";
 ### _Prefer to match class name and file name_
 
 For simplicity and code navigation keep the class name and the file name the same.
+
+### _Prefer to match namespace to the folder structure_
+
+For simplicity and code navigation keep the namespace declaration consistent to the folder structure.
