@@ -18,4 +18,4 @@ _A mostly reasonable approach to JavaScript._
 
 ### _Prefer spaces for indentation_
 
-### _Prefer an indent size of 2_
+### _Prefer an indent size of 4_
