@@ -6,6 +6,8 @@ _A mostly reasonable approach to C#._
 2. [Formatting](#formatting)
 3. [Naming](#naming)
 
+> __TIP:__ Use the [.editorconfig](.editorconfig) file to maintain consistency
+
 ## Basic Rules
 
 ### _Prefer `var` keyword_
