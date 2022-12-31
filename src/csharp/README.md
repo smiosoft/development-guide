@@ -6,6 +6,8 @@ _A mostly reasonable approach to C#._
 2. [Formatting](#formatting)
 3. [Naming](#naming)
 
+> __TIP:__ Use the [.editorconfig](.editorconfig) file to maintain consistency
+
 ## Basic Rules
 
 ### _Prefer `var` keyword_
@@ -30,44 +32,34 @@ Use comments sparingly and only when there is unusual behaviour that needs expla
 
 Avoid line-by-line commentary; code should be self-documenting and easy for other developers to understand. Comments simply get in the way of reading code, add an unnecessary overhead during refactoring, and very easily fall out-of-date.
 
-### _Avoid unused using statements_
-
-Remove any unused using statements from the top of each file.
-
 ## Formatting
 
 ### _Structure_
 
 ```csharp
-using App.Logging;
-using System;
-
-namespace App
+internal class Worker
 {
-    internal class Worker
+    private readonly IDependency _dependency;
+    private int _counter;
+
+    public bool SomeProperty { get; init; }
+
+    public Worker(IDependency dependency)
     {
-        private readonly ILogger _logger;
-        private int _counter;
+        _dependency = dependency;
+        _counter = 0;
+    }
 
-        public bool IsWoking => true;
+    public void DoSomething()
+    {
+        _counter++;
+        DoSomethingElse();
+    }
 
-        public Worker(ILogger logger)
-        {
-            _logger = logger;
-            _counter = 0;
-        }
-
-        public void DoSomething()
-        {
-            Console.WriteLine("I'm working...");
-            _counter++;
-            LogAction();
-        }
-
-        private void LogAction()
-        {
-            _logger.Log($"Counter is set to {_counter}.");
-        }
+    private void DoSomethingElse()
+    {
+        _dependency.SomethingElse();
+        Log.Information("Counter is set to {counter}", _counter);
     }
 }
 ```
@@ -78,21 +70,88 @@ namespace App
 1. Public methods
 1. Private methods
 
-### _Prefer tabs for indentation_
+### _Prefer spaces for indentation_
 
-Tabs are preferred to allow developers to set their own indentation size.
+### _Prefer an indent size of 4_
 
 ### _Prefer one class per file_
 
 For simplicity and code navigation only define one class per file.
 
-### _Prefer to sort using statements alphabetically_
+An exception to this is the expansion into generics.
+
+DO:
 
 ```csharp
-using Foo;
-using Foo.Bar;
+// Result.cs
+namespace Helpers
+{
+    internal class Result
+    { }
+
+    internal class Result<TData> : Result
+    { }
+}
+```
+
+DON'T:
+
+```csharp
+// Result.cs
+namespace Helpers
+{
+    internal class Result
+    { }
+
+    internal class Result<TData> : Result
+    { }
+
+    internal class ResultError
+    { }
+
+    internal class Retry
+    { }
+}
+```
+
+### _Avoid unused using directives_
+
+Remove any unused using statements from the top of each file.
+
+### _Prefer using directives to be placed oustide of the namespace_
+
+DO:
+
+```csharp
+using System;
+
+namespace Foo
+{
+    internal class Bar
+    { }
+}
+```
+
+DON'T:
+
+```csharp
+namespace Foo
+{
+    using System;
+
+    internal class Bar
+    { }
+}
+```
+
+### _Prefer to sort using directives first by system then alphabetically_
+
+```csharp
 using System;
 using System.Threading.Tasks;
+using Bar;
+using Foo;
+using Foo.Baz;
 ```
 
 ## Naming
@@ -153,6 +212,15 @@ public void Foo()
 }
 ```
 
+#### _Constants - Screaming snake case_
+
+```csharp
+public class Foo
+{
+  private const string MY_CONSTANT = "*screams*";
+}
+```
+
 ### _Avoid Hungarian Notation_
 
 The compiler and IDE can provide type information, prefixing this information is redundant and gets in the way of reading the code.
@@ -172,3 +240,7 @@ var strUsername = "batman";
 ### _Prefer to match class name and file name_
 
 For simplicity and code navigation keep the class name and the file name the same.
+
+### _Prefer to match namespace to the folder structure_
+
+For simplicity and code navigation keep the namespace declaration consistent to the folder structure.
