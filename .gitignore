@@ -1,0 +1,57 @@
+########################
+# BASE
+# Format: https://git-scm.com/docs/gitignore
+########################
+
+# A missing file is ignored, not lost; `git check-ignore -v <path>` says why.
+*
+
+# Without this, git never descends into a directory and later rules never run.
+!*/
+
+## Repository files
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/justfile
+!LICENSE
+!*.code-workspace
+
+## Stand-ins
+!*.example
+!*.placeholder
+!*.sample
+!*.template
+
+## Documentation and data
+!*.md
+!*.json
+!*.yml
+!*.yaml
+!/docs/**/.assets/**
+
+## Temporary
+.tmp/
+.temp/
+
+########################
+# ASSETS
+########################
+
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.ico
+!*.svg
+!*.webp
+!*.fig
+
+########################
+# CUSTOM
+########################
+
+# This repository's own rules, kept when the rest is resynced.
+
+# The C# sample is documentation, not this repository's configuration.
+!/src/**/.editorconfig
