@@ -1,11 +1,43 @@
-# editorconfig.org
+########################
+# BASE
+# Format: https://editorconfig.org
+########################
+
 root = true
 
-# default settings
 [*]
 charset = utf-8
 insert_final_newline = true
 indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
+max_line_length = 150
 quote_type = single
+
+########################
+# DATA
+########################
+
+## YAML
+[*.{yml,yaml}]
+indent_size = 2
+
+## JSON
+[*.json]
+indent_size = 2
+
+########################
+# MARKDOWN
+########################
+
+# Nested lists are two spaces, and two trailing spaces are a hard line break.
+[*.md]
+indent_size = 2
+trim_trailing_whitespace = false
+max_line_length = off
+
+########################
+# CUSTOM
+########################
+
+# This repository's own rules, kept when the rest is resynced.

@@ -1,0 +1,12 @@
+########################
+# BASE
+# Format: https://git-scm.com/docs/gitattributes
+########################
+
+* text=auto
+
+########################
+# CUSTOM
+########################
+
+# This repository's own rules, kept when the rest is resynced.
